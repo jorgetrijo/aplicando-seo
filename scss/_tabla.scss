@@ -1,0 +1,16 @@
+.tabla {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid;
+    text-align: center;
+    
+  }
+
+  tbody tr:nth-child(odd) {
+    background-color: #a5a2a4;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #5c585c;
+  }
