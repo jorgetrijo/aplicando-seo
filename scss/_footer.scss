@@ -1,7 +1,7 @@
 .footer {
     display: flex;
     justify-content: space-between; 
-    width: 90%;
+    width: 100%;
     padding: 10px;
     position: absolute;
     bottom: 0;
@@ -15,34 +15,43 @@
     }
 }
 
-@media screen and (min-width:1100px){
+@media screen and (min-width:1400px){
     .footer1 {
         display: flex;
         justify-content: space-between; 
-        width: 90%;
+        width: 100%;
         padding: 10px;
         position: absolute;
         bottom: 0;
-        
-        
-        .footer__redes{
-            .links{
-                display: flex;
-                flex-direction: row;
-                list-style: none;
-                align-items: stretch;
-            }
-        }
+       
+    }
+    .footer2 {
+        display: flex;
+        justify-content: space-between; 
+        width: 100%;
+        padding: 10px;
+       
     }
 }
-@media screen and (max-width:1100px){
+@media screen and (max-width:1400px){
     .footer1 {
+        display: flex;
+        justify-content: space-between; 
+        width: 100%;
+        padding: 10px;
+    }
+    .footer2 {
+        display: flex;
+        justify-content: space-between; 
+        width: 100%;
+        padding: 10px;
+       
+    }
+    .footer3 {
         display: flex;
         justify-content: space-between; 
         width: 90%;
         padding: 10px;
-
-        
         
         .footer__redes{
             .links{
@@ -52,5 +61,42 @@
                 align-items: stretch;
             }
         }
-    }
+    } 
+
+}
+
+@media screen and (min-width:1100px){
+    .footer3 {
+        display: flex;
+        justify-content: space-between; 
+        width: 100%;
+        padding: 10px;
+        
+        .footer__redes{
+            .links{
+                display: flex;
+                flex-direction: row;
+                list-style: none;
+                align-items: stretch;
+            }
+        }
+    } 
+}
+@mixin redes($color,$sombra){
+    background-color: $color;
+    box-shadow: $sombra;
+}
+.facebook{
+    transition: .8s;
+    border-radius: 50%;
+}
+.facebook:hover{
+    @include redes(blue, 0 0 30px blue);
+}
+.instagram{
+    @extend .facebook;
+}
+.instagram:hover{
+    @include redes(#e60073, 0 0 30px #e60073);
+    
 }
