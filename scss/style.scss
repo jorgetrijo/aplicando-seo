@@ -5,14 +5,17 @@
 $tamaño-normal: 20px auto;
 body{
     box-sizing: border-box;
-    font-family: 'Caveat', cursive;
+    font-family: 'Stick No Bills', sans-serif;
     text-shadow: 1px 1px 1px black;
     background-image: url("https://e00-ar-marca.uecdn.es/claro/assets/multimedia/imagenes/2022/03/24/16481344390497.jpg");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    color: rgb(196, 188, 188);
+    color: white;
+    font-size: 1.3rem;
+    overflow-x: hidden;
+
     h1{
         text-align: center;
     }
@@ -138,7 +141,7 @@ form{
 
 
 .card:is(:hover, :focus) > .image {
-    transform: scale(1);
+    transform: scale(1.1);
     filter: brightness(0.4)
 }
 .card:is(:hover, :focus) > .text {
@@ -148,4 +151,52 @@ form{
 .card:is(:hover, :focus) > .textos {
     transform: scale(1.1);
     opacity: 1;
+}
+
+.trofeos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.trofeos__texto{
+    text-align: center;
+    color: white;
+}
+
+@media screen and (max-width:768px){
+    .trofeos{
+        display: grid;
+        grid-template-columns: 1fr 1fr;}
+}
+
+.trofeos2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.ligue-1{
+    width: 200px;
+    height: 250px;
+}
+.trofeos3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+@media screen and(max-width:768px){
+    .trofeos3{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+.trofeos4{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.finalissima{
+    width: 150px;
+    height: 200px;
+}
+.body-estadisticas{
+    background-image: url("https://editorial.uefa.com/resources/0257-0f84229fa436-6230d0a4a4ea-1000/lionel_messi_barcelona_.jpeg");
+}
+.body-suscribite{
+    background-image: url("https://elcomercio.pe/resizer/zNlYmHh7UfiLvLbUiBCIWAGb9LQ=/1200x800/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/KAHXTZ426FA4DFBYT6K5O36O7I.jpg");
 }
