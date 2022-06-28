@@ -118,7 +118,7 @@ body {
   .footer3 {
     display: flex;
     justify-content: space-between;
-    width: 90%;
+    width: 100%;
     padding: 10px; }
     .footer3 .footer__redes .links {
       display: flex;
