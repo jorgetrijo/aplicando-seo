@@ -249,3 +249,39 @@ form {
 
 .body-suscribite {
   background-image: url("https://elcomercio.pe/resizer/zNlYmHh7UfiLvLbUiBCIWAGb9LQ=/1200x800/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/KAHXTZ426FA4DFBYT6K5O36O7I.jpg"); }
+
+.noticia-1 {
+  background-image: url("https://static.messi.com/wp-content/uploads/2022/06/WhatsApp-Image-2022-06-02-at-9.31.42-AM-2.jpeg?v=1654159373"); }
+
+.noticia-2 {
+  background-image: url("https://static.messi.com/wp-content/uploads/2022/05/BA0E0638-63E3-42A7-AD19-6668AB029E1D.jpeg?v=1653045984"); }
+
+.noticia-3 {
+  background-image: url("https://messi.com/wp-content/uploads/2022/06/WhatsApp-Image-2022-06-06-at-10.23.46-AM-1.jpeg"); }
+
+.noticia-4 {
+  background-image: url("https://stadium-azteca.underdog.gs/soccerly/2020/06/16/1592311331.jpg"); }
+
+.noticia-5 {
+  background-image: url("https://messi.com/wp-content/uploads/2022/04/WhatsApp-Image-2022-04-27-at-9.39.32-AM.jpeg?v=1651181483"); }
+
+.noticia-6 {
+  background-image: url("https://static.messi.com/wp-content/uploads/2022/05/WhatsApp-Image-2022-05-07-at-12.59.20-PM.jpeg?v=1651931102"); }
+
+.video-estonia {
+  text-align: center; }
+
+@media screen and (max-width: 520px) {
+  .video {
+    width: 320px;
+    height: 240px; } }
+
+@media screen and (min-width: 1250px) {
+  .video {
+    width: 720px;
+    height: 480px; } }
+
+@media screen and (min-width: 520px) and (max-width: 720px) {
+  .video {
+    width: 520px;
+    height: 320px; } }
