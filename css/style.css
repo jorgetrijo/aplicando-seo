@@ -194,6 +194,9 @@ form {
     font-size: 1em;
     transition: opacity 400ms, transform 400ms; }
 
+.tarjeta {
+  text-decoration: none; }
+
 .card:is(:hover, :focus) > .image, .card:is(:hover, :focus) > .image-2 {
   transform: scale(1.1);
   filter: brightness(0.4); }

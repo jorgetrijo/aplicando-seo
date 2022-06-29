@@ -138,7 +138,9 @@ form{
         transition: opacity 400ms, transform 400ms;
     }
 }
-
+.tarjeta{
+    text-decoration: none;
+}
 
 .card:is(:hover, :focus) > .image {
     transform: scale(1.1);
